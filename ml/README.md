@@ -2,12 +2,14 @@
   - numpy로 gradient descent를 사용한 선형 회귀 모델을 구현하였습니다.
   - 구현한 선형 회귀 모델의 정확도를 판단하기 위해 sklearn의 LinearRegression과 예측값을 비교해보았습니다.
   - MSE: 2855
-
+  - 회고: Keras나 sklearn에 익숙해져있어서 밑바닥부터 만드는 과정이 조금 혼동되는 부분도 있었는데, 리마인드하면서 이해를 다시 잡을 수 있어서 좋았습니다.
+  
 - [프로젝트 2: 자전거 대여량 예측](./bike-sharing-demand.ipynb)
   - sklearn의 LinearRegression을 사용하여 자전거 대여량을 예측하였습니다.
   - RMSE: 142
+  - 회고: 여러 데이터를 한번에 다루는 부분이 쉽지 않았지만, 인터뷰 때 프로젝트를 한 번 살펴봤기 때문에 이번에는 이해가 좀 더 생긴 것 같다.
  
-  ---------------------------------
+---------------------------------
 
   🔑 **PRT(Peer Review Template)**
 
@@ -21,8 +23,6 @@
 ![3](https://github.com/ivvve/aiffel-repo/assets/168398983/be2e125e-65f0-4f76-b60e-29be59c756eb)
 ![4](https://github.com/ivvve/aiffel-repo/assets/168398983/db5098e1-40a3-4325-97d7-c2997c036500)
 ![5](https://github.com/ivvve/aiffel-repo/assets/168398983/dff5a0a9-8ce7-407b-98aa-f40ab9896f64)
-
-        
 
 - [x]  **2. 프로젝트에서 핵심적인 부분에 대한 설명이 주석(닥스트링) 및 마크다운 형태로 잘 기록되어있나요? (설명)**
     - [x]  모델 선정 이유

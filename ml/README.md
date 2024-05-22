@@ -18,11 +18,11 @@
     - 문제를 해결하는 완성된 코드란 프로젝트 루브릭 3개 중 2개, 
     퀘스트 문제 요구조건 등을 지칭
         - 해당 조건을 만족하는 부분의 코드 및 결과물을 캡쳐하여 사진으로 첨부
-![1](https://github.com/ivvve/aiffel-repo/assets/168398983/fe5ee5a0-32f0-4aac-8ddd-2f253521cc96)
-![2](https://github.com/ivvve/aiffel-repo/assets/168398983/36eb5e43-05ec-4392-a728-b45a222a6e61)
-![3](https://github.com/ivvve/aiffel-repo/assets/168398983/be2e125e-65f0-4f76-b60e-29be59c756eb)
-![4](https://github.com/ivvve/aiffel-repo/assets/168398983/db5098e1-40a3-4325-97d7-c2997c036500)
-![5](https://github.com/ivvve/aiffel-repo/assets/168398983/dff5a0a9-8ce7-407b-98aa-f40ab9896f64)
+          - ![1](https://github.com/ivvve/aiffel-repo/assets/168398983/fe5ee5a0-32f0-4aac-8ddd-2f253521cc96)
+          - ![2](https://github.com/ivvve/aiffel-repo/assets/168398983/36eb5e43-05ec-4392-a728-b45a222a6e61)
+          - ![3](https://github.com/ivvve/aiffel-repo/assets/168398983/be2e125e-65f0-4f76-b60e-29be59c756eb)
+          - ![4](https://github.com/ivvve/aiffel-repo/assets/168398983/db5098e1-40a3-4325-97d7-c2997c036500)
+          - ![5](https://github.com/ivvve/aiffel-repo/assets/168398983/dff5a0a9-8ce7-407b-98aa-f40ab9896f64)
 
 - [x]  **2. 프로젝트에서 핵심적인 부분에 대한 설명이 주석(닥스트링) 및 마크다운 형태로 잘 기록되어있나요? (설명)**
     - [x]  모델 선정 이유

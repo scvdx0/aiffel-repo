@@ -35,11 +35,28 @@
     퀘스트 문제 요구조건 등을 지칭
         - 해당 조건을 만족하는 부분의 코드 및 결과물을 캡쳐하여 사진으로 첨부
 
-- Rotate 비교
-- 스티커 자연스럽게 부착 완료
-- 밝기 조절 비교
-- 각도에 따른 비교
-- [webcam](https://github.com/minkj1992/aiffel-repo/blob/main/image-sticker/sticker_webcam.py)을 구현하여 simulation을 하였다.
+
+> 다양한 방법을 사용해서 문제를 해결하였습니다.
+
+#### [x] 정면 이미지로 테스트
+
+<img width="249" alt="Screenshot 2024-06-04 at 5 25 00 PM" src="https://github.com/minkj1992/aiffel-repo/assets/37536298/5c31bf43-8528-419e-8981-e3d6743615ec">
+
+#### [x] 단체 이미지로 테스트
+
+<img width="469" alt="Screenshot 2024-06-04 at 5 25 39 PM" src="https://github.com/minkj1992/aiffel-repo/assets/37536298/f0f4a7b7-f46e-423e-bca6-3917090fd7f0">
+
+#### [x] 얼굴 각도 비교
+<img width="474" alt="Screenshot 2024-06-04 at 5 25 59 PM" src="https://github.com/minkj1992/aiffel-repo/assets/37536298/f9f7b115-82b5-4d84-b26e-44e8098d41a4">
+
+#### [x] Rotate 비교
+<img width="408" alt="Screenshot 2024-06-04 at 5 26 44 PM" src="https://github.com/minkj1992/aiffel-repo/assets/37536298/bde36b08-7dd3-4232-b945-af65cdb432d6">
+
+#### [x] 밝기 조절  비교
+<img width="474" alt="Screenshot 2024-06-04 at 5 27 15 PM" src="https://github.com/minkj1992/aiffel-repo/assets/37536298/fdbe9c86-fabb-4727-982e-e538a2f370d3">
+
+
+- 또한 [webcam](https://github.com/minkj1992/aiffel-repo/blob/main/image-sticker/sticker_webcam.py)을 구현하여 simulation을 하였습니다.
 
 - [x]  **2. 프로젝트에서 핵심적인 부분에 대한 설명이 주석(닥스트링) 및 마크다운 형태로 잘 기록되어있나요? (설명)**
     - [ ]  모델 선정 이유

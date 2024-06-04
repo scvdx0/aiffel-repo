@@ -3,7 +3,7 @@
 - [sticker.ipynb](sticker.ipynb)
   - 얼굴 감지를 한 뒤에 고양이 수염 스티커를 붙이는 예제 notebook
 
-- [sticker_webcam.ipynb](sticker_webcam.ipynb)
+- [sticker_webcam.py](sticker_webcam.py)
   - 웹캠을 통해 얼굴에 고양이 수염 스티커를 붙이는 예제
   - 이미지를 바꿔가며 테스트하는 것이 불편하여 웹캠을 통해 여러 각도의 얼굴을 테스트할 수 있도록 하였습니다.
 

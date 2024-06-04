@@ -28,6 +28,7 @@
 ### 리뷰
 
 🔑 **PRT(Peer Review Template)**
+> 제민욱 작성
 
 - [x]  **1. 주어진 문제를 해결하는 완성된 코드가 제출되었나요? (완성도)**
     - 문제에서 요구하는 최종 결과물이 첨부되었는지 확인
@@ -52,7 +53,7 @@
 #### [x] Rotate 비교
 <img width="408" alt="Screenshot 2024-06-04 at 5 26 44 PM" src="https://github.com/minkj1992/aiffel-repo/assets/37536298/bde36b08-7dd3-4232-b945-af65cdb432d6">
 
-#### [x] 밝기 조절  비교
+#### [x] 밝기 조절 비교
 <img width="474" alt="Screenshot 2024-06-04 at 5 27 15 PM" src="https://github.com/minkj1992/aiffel-repo/assets/37536298/fdbe9c86-fabb-4727-982e-e538a2f370d3">
 
 
@@ -66,8 +67,40 @@
 - [x]  **3. 체크리스트에 해당하는 항목들을 모두 수행하였나요? (문제 해결)**
     - [ ]  데이터를 분할하여 프로젝트를 진행했나요? (train, validation, test 데이터로 구분)
     - [ ]  하이퍼파라미터를 변경해가며 여러 시도를 했나요? (learning rate, dropout rate, unit, batch size, epoch 등)
-    - [x]  각 실험을 시각화하여 비교하였나요? rotate, 밝기 조절,각도에 따른 비교를 모두 시각화하여 비교하였습니다. (위 첨부)
-    - [x]  모든 실험 결과가 기록되었나요? 위와 동일
+    - [x]  각 실험을 시각화하여 비교하였나요?
+    - [x] 모든 실험 결과가 기록되었나요? 
+
+위에 첨부된 스크린샷과 같이 다각도로 시각화하여 비교를 진행하였습니다. (rotate, 밝기 조절,각도 등), 뿐만아니라 아래 소스코드에 웹캠과 관련하여 실험 결과를 시뮬레이션 하여 보여주었습니다. 
+
+    
+```py
+import dlib
+import cv2
+import numpy as np
+
+
+face_detector = dlib.get_frontal_face_detector()
+landmark_predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
+video_capture = cv2.VideoCapture(0)
+
+DEBUG = True
+
+try:
+    while True:
+        # capture frame-by-frame
+        _, frame = video_capture.read()
+        image_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+
+        image_height, image_width = frame.shape[:2]
+        face_rects = face_detector(image_rgb, 1)
+        face_landmarks = [landmark_predictor(image_rgb, rect) for rect in face_rects]
+
+        if DEBUG:
+            if face_rects:
+                print("Face detected!!")
+            else:
+                print("Face not detected..")
+```
 
 - [x]  **4. 프로젝트에 대한 회고가 상세히 기록 되어 있나요? (회고, 정리)**
     - [x]  배운 점

@@ -32,5 +32,5 @@
     - [ㅇ]  어려웠던 점
   ![image](https://github.com/scvdx0/aiffel-repo/assets/169222852/b93e7685-eb29-4f7d-9612-cda2dfb7c076)
 
-
+ㅇ
 
